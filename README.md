@@ -18,6 +18,7 @@
 4. Write additional tests if needed
 5. Run mutation testing
 6. Write additional tests if needed
+7. Repeat steps 2-6 for *SqrtTest* class
 
 ### Task ###
 
@@ -28,8 +29,12 @@
 5. Compare results, how mutation detection improved
 
 ### Candidates for testing ###
-TBD
 
+- [https://github.com/jsvazic/GAHelloWorld](https://github.com/jsvazic/GAHelloWorld)
+- TBD
+
+### References ###
+- [http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/](http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/)
 
 
 
