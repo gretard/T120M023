@@ -18,7 +18,7 @@
 4. Write additional tests if needed
 5. Run mutation testing
 6. Write additional tests if needed
-7. Repeat steps 2-6 for *SqrtTest* class
+7. Write tests for *Calculator* and *PasswordGenerator* classes and repeat 3-6 steps
 
 ### Task ###
 
@@ -28,10 +28,32 @@
 4. Run mutation testing
 5. Compare results, how mutation detection improved
 
+####Your report should contain####
+
+1. Introduction: short summary of classes under test, including what they do and lines of code
+2. Work results:
+	1. Iteration 1:
+		1. Source code of the initially created unit tests
+		1. Code coverage and mutation testing results of the initial unit tests
+	1. Iteration 2:
+		1. Updated tests source code
+		1. Code coverage and mutation testing results after step 4
+6. Conclusions of the results, including comparison of results between iteration 1 and 2, which mutants were killed, how much code coverage has improved
+
+
+
 ### Candidates for testing ###
 
+- [https://github.com/JodaOrg/joda-time](https://github.com/JodaOrg/joda-time) (could require to change junit version in pom.xml to 4.12)
+- [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 - [https://github.com/jsvazic/GAHelloWorld](https://github.com/jsvazic/GAHelloWorld)
-- TBD
+- [https://github.com/apache/commons-math](https://github.com/apache/commons-math)
+
+Getting started with tests:
+
+- Clone code using git
+- Eclipse: Import Maven project by clicking File->Import->Mavem->Existing Maven Projects
+
 
 ### References ###
 - [http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/](http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/)
