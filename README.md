@@ -12,7 +12,8 @@
 
 ### Exercise ###
 
-1. Checkout project at *sources\lab1\lab1*
+1. Checkout project from GIT 
+2. Import project from *sources\lab1\lab1*
 2. Run *DivisionTest* test
 3. Check code coverage
 4. Write additional tests if needed
@@ -57,6 +58,7 @@ Getting started with tests:
 
 ### References ###
 - [http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/](http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/)
+- [http://martinfowler.com/articles/mocksArentStubs.html](http://martinfowler.com/articles/mocksArentStubs.html "Martin Fowler - Mocks Aren't Stubs")
 - [https://www.feabhas.com/sites/default/files/uploads/News/Feabhas_Infographic_FINAL.pdf](https://www.feabhas.com/sites/default/files/uploads/News/Feabhas_Infographic_FINAL.pdf)
 - [https://raygun.com/blog/2014/05/10-costly-software-errors-history/](https://raygun.com/blog/2014/05/10-costly-software-errors-history/)
 

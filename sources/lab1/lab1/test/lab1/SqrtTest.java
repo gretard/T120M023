@@ -7,7 +7,7 @@ public class SqrtTest {
 
 	@Test
 	public void testNegativeSqrt() {
-		Assert.assertEquals(0, Sqrt.sqrt(-5));
+		Assert.assertEquals("Test", 0, Sqrt.sqrt(-5), 0);
 	}
 
 }
