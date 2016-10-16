@@ -57,6 +57,7 @@ Getting started with tests:
 
 
 ### References ###
+- [http://junit.sourceforge.net/doc/testinfected/testing.htm](http://junit.sourceforge.net/doc/testinfected/testing.htm "http://junit.sourceforge.net/doc/testinfected/testing.htm")
 - [http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/](http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/)
 - [http://martinfowler.com/articles/mocksArentStubs.html](http://martinfowler.com/articles/mocksArentStubs.html "Martin Fowler - Mocks Aren't Stubs")
 - [https://www.feabhas.com/sites/default/files/uploads/News/Feabhas_Infographic_FINAL.pdf](https://www.feabhas.com/sites/default/files/uploads/News/Feabhas_Infographic_FINAL.pdf)
