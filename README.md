@@ -56,7 +56,7 @@ Getting started with tests:
 - Eclipse: Import Maven project by clicking File->Import->Mavem->Existing Maven Projects
 
 
-### References ###
+### Further reading ###
 - [http://junit.sourceforge.net/doc/testinfected/testing.htm](http://junit.sourceforge.net/doc/testinfected/testing.htm "http://junit.sourceforge.net/doc/testinfected/testing.htm")
 - [http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/](http://crestweb.cs.ucl.ac.uk/resources/mutation_testing_repository/)
 - [http://martinfowler.com/articles/mocksArentStubs.html](http://martinfowler.com/articles/mocksArentStubs.html "Martin Fowler - Mocks Aren't Stubs")
@@ -64,19 +64,48 @@ Getting started with tests:
 - [https://raygun.com/blog/2014/05/10-costly-software-errors-history/](https://raygun.com/blog/2014/05/10-costly-software-errors-history/)
 
 
-## Laboratory work 2: Performance testing ##
+## Laboratory work 2: Web application testing ##
 
 ### Prerequisites ###
 1. Firefox browser
 2. Selenium IDE plugin for Firefox [https://addons.mozilla.org/en-us/firefox/addon/selenium-ide/](https://addons.mozilla.org/en-us/firefox/addon/selenium-ide/)
 3. HP Loadrunner [http://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/](http://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/)
+4. Visual Studio [https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/ "https://www.visualstudio.com/vs/community/")
 
+### Exercise ###
 
+1. Checkout project from GIT 
+2. Go to *sources\lab2\src*
+2. Open *lab2.sln* file
+3. Record a selenium scenario for registration form page
+4. Record a performance test for registration form page
 
 ### Task ###
 
- - Record selenium tests for 2 scenarios for the selected website
- - Record performance tests using Loadrunner for the selected website 
+ 1. Record 2 selenium tests for the selected application
+ 2. Record performance 2 user scripts using Loadrunner for the selected application
+ 3. Create a scenario using user scripts
+ 4. Run scenario 3 times for 15 minutes
+ 5. Analyze results
+
+####Your report should contain####
+
+1. Introduction: short summary application under test
+2. Work results:
+	1. Selenium:
+		1. Scripts
+		2. Execution results
+	2. Loadrunner:
+		1. 2 virtual user scripts
+		2. Created scenario (screenshot)
+		2. Execution results, at least 2 times each run of 15 minutes
+3. Conclusions of the results, including average response times, if any found performance problems
+
 
 ### Candidates for testing ###
-TBD
+ - MusicStore [https://github.com/aspnet/MusicStore](https://github.com/aspnet/MusicStore/ "https://github.com/aspnet/MusicStore")
+ - SocialGoal [https://github.com/MarlabsInc/SocialGoal](https://github.com/MarlabsInc/SocialGoal "https://github.com/MarlabsInc/SocialGoal")
+ - LimeSurvey [https://www.limesurvey.org/](https://www.limesurvey.org/ "https://www.limesurvey.org/")
+
+### Further reading ###
+- [http://www.agileload.com/agileload/blog/2012/11/09/application-performance-testing-basics](http://www.agileload.com/agileload/blog/2012/11/09/application-performance-testing-basics "http://www.agileload.com/agileload/blog/2012/11/09/application-performance-testing-basics")

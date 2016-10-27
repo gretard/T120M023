@@ -1,0 +1,43 @@
+﻿@model lab2.Models.RegisterView
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Contact form</h2>
+<hr/>
+<div class="row">
+    <div class="col-md-6">
+        <div id="registrationPlaceholder" class="registration-form">
+            <div id="statusText">Please fill in your details..</div>
+            <br/>
+            <form id="registrationForm" method="post">
+                <input type="text" class="form-control" placeholder="Name" name="name" />
+                <input type="text" class="form-control" placeholder="Email" name="email" />
+                <br/>
+                <input type="submit" class="form-control btn btn-primary" value="Register" />
+            </form>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+
+    <script>
+        $(document).ready(function () {
+
+            $('#registrationForm').submit(function (e) {
+                e.preventDefault();
+                $.post('/api/Registration', $(e.target).serialize())
+                    .done(function (ex) {
+                        $('#registrationForm').hide();
+                        $('#statusText').addClass("h4").text("Welcome " + ex.Name + "!");
+                    })
+                  .fail(function (e) {
+                      $('#statusText').text(e.responseJSON.Message);
+                  });
+
+            });
+        });
+    </script>
+}

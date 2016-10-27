@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/sources/lab2/src/lab2/bin
+/sources/lab2/src/lab2/obj
+/sources/lab2/src/lab2/Scripts
+/sources/lab2/src/packages
+/sources/lab2/tests/lr/Clear/data
+/sources/lab2/tests/lr/Clear/Clear.usr
+/sources/lab2/tests/lr/Clear/Clear.sdf
+/sources/lab2/tests/lr
