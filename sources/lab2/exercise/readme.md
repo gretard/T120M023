@@ -4,20 +4,20 @@
 <table>
 <tr><th>Step</th><th></th></tr>
 <tr><td>Open <em>lab2.sln</em> file</td><td></td></tr>
-<tr><td>Uncheck <em>"Enable browser link"</em></td><td><img src='1link.jpg'/></td></tr>
-<tr><td>Right click on solution and restore nuget packages</td><td><img src='2restore.jpg'/></td></tr>
-<tr><td>Click <em>"Start in Firefox"</em></td><td><img src='3.jpg'/></td></tr>
+<tr><td>Uncheck <em>"Enable browser link"</em></td><td><img src='imgs/1link.jpg'/></td></tr>
+<tr><td>Right click on solution and restore nuget packages</td><td><img src='imgs/2restore.jpg'/></td></tr>
+<tr><td>Click <em>"Start in Firefox"</em></td><td><img src='imgs/3.jpg'/></td></tr>
 </table>
 
 ## Recording selenium script ##
 <table>
 <tr><th>Step</th><th></th></tr>
-<tr><td>Navigate to the website</td><td><img src='4.jpg'/></td></tr>
-<tr><td>In Firefox click <em>"Options->Selenium IDE"</em></td><td><img src='5.jpg'/></td></tr>
+<tr><td>Navigate to the website</td><td><img src='imgs/4.jpg'/></td></tr>
+<tr><td>In Firefox click <em>"Options->Selenium IDE"</em></td><td><img src='imgs/5.jpg'/></td></tr>
 <tr><td>
 Click recording button
 </td><td>
-<img src='6.jpg'/>
+<img src='imgs/6.jpg'/>
 </td></tr>
 <tr><td>
 Perform the following steps:
@@ -25,12 +25,12 @@ Perform the following steps:
  <li>Click clear</li>
  </ul>
 </td><td>
-<img src='7.jpg'/>
+<img src='imgs/7.jpg'/>
 </td></tr>
 <tr><td>
 Right click on page, select <em>asssertTitle</em>
 </td><td>
-<img src='8.jpg'/>
+<img src='imgs/8.jpg'/>
 </td></tr>
 <tr><td>
 Record second scenario:
@@ -43,7 +43,7 @@ Record second scenario:
 <li>Assert that Status text contains your entered name</li>
 </ul>
 </td><td>
-<img src='9.jpg'/>
+<img src='imgs/9.jpg'/>
 </td></tr>
 
 </table>
@@ -62,61 +62,61 @@ Open Virtual User Generator
 <tr><td>
 Click <em>"File->New script and solution"</em>
 </td><td>
-<img src='10.jpg'/>
+<img src='imgs/10.jpg'/>
 </td></tr>
 
 <tr><td>
 Enter details
 </td><td>
-<img src='11.jpg'/>
+<img src='imgs/11.jpg'/>
 </td></tr>
 <tr><td>
 Click record button
 </td><td>
-<img src='12.jpg'/>
+<img src='imgs/12.jpg'/>
 </td></tr>
 <tr><td>
 Enter details
 </td><td>
-<img src='11.jpg'/>
+<img src='imgs/11.jpg'/>
 </td></tr>
 <tr><td>
 Enter details and click <em>"Start recording"</em>
 </td><td>
-<img src='13.jpg'/>
+<img src='imgs/13.jpg'/>
 </td></tr>
 <tr><td>
 Wait for the page to load and click <em>"Stop"</em> button
 </td><td>
-<img src='14.jpg'/>
+<img src='imgs/14.jpg'/>
 </td></tr>
 <tr><td>
 Verify your recorded script by hitting <em>"Replay"</em> button
 </td><td>
-<img src='15.jpg'/>
+<img src='imgs/15.jpg'/>
 </td></tr>
 
 <tr><td>
 Create a new script for registration. Click Record button
 </td><td>
-<img src='16.jpg'/>
+<img src='imgs/16.jpg'/>
 </td></tr>
 <tr><td>
 Click Recording Options. Click HTML advanced and select options to record only URLs.
 </td><td>
-<img src='18.jpg'/>
+<img src='imgs/18.jpg'/>
 </td></tr>
 
 <tr><td>
 In form enter name and email. Submit and click stop recording button.
 </td><td>
-<img src='19.jpg'/>
+<img src='imgs/19.jpg'/>
 </td></tr>
 
 <tr><td>
 Try replaying your script. It should fail. If you cleared cache by navigating to Registrations/Clear then it would start passing.
 </td><td>
-<img src='20.jpg'/>
+<img src='imgs/20.jpg'/>
 </td></tr>
 <tr><td>
 Parametrise script by using a text file with the following content (you could use test data generator such as http://www.generatedata.com/):
@@ -131,28 +131,28 @@ ligula.Donec.luctus@ullamcorperDuis.co.uk,Kylan,Best
 varius.Nam.porttitor@nuncsitamet.net,Vivien,Key
 </pre>
 </td><td>
-<img src='21.jpg'/><br/>
+<img src='imgs/21.jpg'/><br/>
 <br/>
-<img src='22.jpg'/>
+<img src='imgs/22.jpg'/>
 </td></tr>
 <tr><td>
 Update script to use your parameters.
 </td><td>
-<img src='23.jpg'/>
+<img src='imgs/23.jpg'/>
 </td></tr>
 
 
 <tr><td>
 Parametrise script by using timestamp function.
 </td><td>
-<img src='24.jpg'/>
+<img src='imgs/24.jpg'/>
 </td></tr>
 
 
 <tr><td>
 Add transaction to measure times to both your scripts (use different names for both scripts).
 </td><td>
-<img src='31.jpg'/>
+<img src='imgs/31.jpg'/>
 </td></tr>
 </table>
 
@@ -168,13 +168,13 @@ Open Controller
 <tr><td>
 Include your scripts into scenario.
 </td><td>
-<img src='25.jpg'/>
+<img src='imgs/25.jpg'/>
 </td></tr>
 
 <tr><td>
 Convert scenario to percentage mode.
 </td><td>
-<img src='26.jpg'/>
+<img src='imgs/26.jpg'/>
 </td></tr>
 
 <tr><td>
@@ -183,24 +183,24 @@ Update runtime options to:
 <ul><li>Ignore think time</li>
 <li>Disable logging</li></ul>
 </td><td>
-<img src='27.jpg'/>
+<img src='imgs/27.jpg'/>
 </td></tr>
 
 <tr><td>
 Setup schedule.
 </td><td>
-<img src='28.jpg'/>
+<img src='imgs/28.jpg'/>
 </td></tr>
 
 <tr><td>
 Click start.
 </td><td>
-<img src='29.jpg'/>
+<img src='imgs/29.jpg'/>
 </td></tr>
 
 <tr><td>
 After scenario finishes, click <em>"Analyze results"</em>.
 </td><td>
-<img src='30.jpg'/>
+<img src='imgs/30.jpg'/>
 </td></tr>
 </table>
