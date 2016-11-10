@@ -74,11 +74,7 @@ Getting started with tests:
 
 ### Exercise ###
 
-1. Checkout project from GIT 
-2. Go to *sources\lab2\src*
-2. Open *lab2.sln* file
-3. Record a selenium scenario for registration form page
-4. Record a performance test for registration form page
+Details can be found at [https://github.com/gretard/T120M023/blob/master/sources/lab2/exercise/readme.md](https://github.com/gretard/T120M023/blob/master/sources/lab2/exercise/readme.md "https://github.com/gretard/T120M023/blob/master/sources/lab2/exercise/readme.md").
 
 ### Task ###
 
