@@ -148,12 +148,6 @@ Parametrise script by using timestamp function.
 <img src='24.jpg'/>
 </td></tr>
 
-<tr><td>
-Parametrise script by using timestamp function.
-</td><td>
-<img src='24.jpg'/>
-</td></tr>
-
 
 <tr><td>
 Add transaction to measure times to both your scripts (use different names for both scripts).
